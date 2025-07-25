@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center space-x-2">
-            <h1 className="text-xl font-bold">ZZQ CRM</h1>
+            <h1 className="text-xl font-bold">ZZQ</h1>
           </Link>
 
           {/* Navigation Links */}
@@ -26,22 +26,10 @@ export default function Navbar() {
               Dashboard
             </Link>
             <Link
-              href="/customers"
+              href="/clients"
               className="text-sm font-medium hover:text-primary transition-colors"
             >
-              Customers
-            </Link>
-            <Link
-              href="/leads"
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
-              Leads
-            </Link>
-            <Link
-              href="/reports"
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
-              Reports
+              Clients
             </Link>
           </div>
 
